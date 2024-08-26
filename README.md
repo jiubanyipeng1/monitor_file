@@ -9,7 +9,7 @@
 4. 基本表的数据结构sql：monitor_file_sql.sql <br>
 5. 如果你不懂开发环境安装，直接下载集成环境（<a href="https://github.com/jiubanyipeng1/single/releases/tag/2.1" target="_blank">下载地址</a> ）<br>
 <h3>更新说明：</h3>
-<per>
+<pre>
 版本：2.1 
 日期: 2024-08-26
 注意事项：
@@ -29,7 +29,7 @@
     6. 为了客户端支持重新运行，添加客户端响应type修改，类型为2的就是需要重新请求，类型3为提示
     7. 为了防止客户端没有验证服务端是否存在文件，必须验证后返回许可，上传添加的时候需要带上该许可
     8. 根据用户名分类文件夹，基本逻辑和文件的添加文件已完善，暂未打算启用
-</per>
+</pre>
 <h1> 配置文件参考说明 </h1>
 <table>
     <caption><h5>server_config文件说明：</h5></caption>
